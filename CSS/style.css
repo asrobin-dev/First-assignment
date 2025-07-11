@@ -10,6 +10,13 @@ body {
     line-height: 30px;
 
 }
+.logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #b107f4;
+
+}
 .btn {
     padding: 10px 20px;
     background-color: rgb(5, 77, 246);
@@ -17,7 +24,6 @@ body {
     border: none;
     border-radius: 8px;
     font-weight: 500;
-    transition: all 0.3s ease;
     cursor: pointer;
     
 }
