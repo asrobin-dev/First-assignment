@@ -14,7 +14,7 @@ body {
     
     font-size: 24px;
     font-weight: bold;
-    color: #b107f4;
+    color: #4f46e5;
 
 }
 .btn {
@@ -212,4 +212,33 @@ body {
 .contact-right textarea {
   resize: vertical;
   height: 100px;
+}
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #eef2ff;
+  color: #4b5563;
+}
+
+.footer-logo {
+  font-size: 60px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+.footer-text{
+    margin-top: 20px;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.footer-links a:hover {
+  color: #4f46e5;
 }
