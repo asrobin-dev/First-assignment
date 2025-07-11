@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'raleway';
+    background-color: rgb(245, 248, 255);
+    color: #0f172a;
+    line-height: 30px;
+
+}
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(5, 77, 246);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+  background-color: #6366f1;
+  transform:translateY(-2px);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    background: url('images/Hero-bg.png') repeat;
+}
+.banner {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('images/Hero-bg.png') repeat;
+}
+.banner h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
