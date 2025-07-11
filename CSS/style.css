@@ -68,3 +68,108 @@ body {
     max-width: 100%;
     border-radius: 30px;
 }
+.user {
+    background-color: #eae8ff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 16px;
+    max-width: 900px;
+    margin: 40px auto;
+    
+    
+    
+}
+.user h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 40px;
+}
+.data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.data div h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #6366f1;
+}
+.data div p {
+    color:darkgray ;
+    font-size: 14px;
+}
+
+.feedback-section {
+  background-color: #f8faff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #facc15;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feedback-card p {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.date {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
